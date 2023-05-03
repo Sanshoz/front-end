@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    palíndromo
+   <script>
+     function isPalindromo(palin){
+       palin = palin.split(/\s/);
+       let newPalin = ''
+       for (let value of palin){
+         newPalin = newPalin+value
+       }
+       newPalin=newPalin.toUpperCase()
+       for(var i = 0; i < newPalin.length/2; i++){
+         if(newPalin.charAt(i) != newPalin.charAt(newPalin.length-(i+1))){ //charAt pega o char da String na posição i 
+           return false;
+         }
+       }
+       return true;
+     }
+     console.log(isPalindromo("was it a car or a cat I saw"));
+     console.log(isPalindromo("Palindromo"));
+     console.log(isPalindromo("ana"));
+
+   </script> 
+  
+  </body>
+</html>

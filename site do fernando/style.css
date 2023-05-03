@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300&display=swap');
+body {
+  font-size: 1vw;
+  font-family: spectral;
+  background-color: #F8f8ff;
+}
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+#lateral {
+  text-align: center;
+  font-size: 2vw;
+  background-color: #161A1E;
+  width: 20%;
+  height: 100%;
+  color: #F8f8ff;
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; 
+  margin: auto;
+  box-shadow: 0.051vw 0px 5px gray;
+  /* altura necessária */
+}
+
+button{
+  font-size: 1.5vw;
+  color: white;
+  text-decoration: none;
+  border: none;
+  background-color: inherit;
+  margin-bottom: 5%;
+}
+button:hover{
+  color: inherit;
+  background-color:#303134;
+  display: inline-block;
+  width: 100%;
+}
+
+#Formação, #Abordagem, #Contato{
+  display: none;
+}
+
+ #texts{
+  font-size: 1vw;
+  padding-left: 05%;
+  padding-right: 12.5%;
+  text-align: justify;
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  margin: auto auto auto 20%;
+  height: 75%;
+  width: auto;
+}
+
+#elementosLateral{ 
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  margin: auto;
+  height: 75%;
+}
+
+input[type=text]{
+  border:  2px solid;
+  width: 45%;
+  height: 4%;
+  padding-left: 3%;
+  border-radius: 0.5%;
+  margin-bottom: 1%;
+  margin-right: 3%;
+}
+textarea{
+  
+  border: 2px solid;
+  width: 93.5%;
+  border-radius: 0.5%;
+  padding-left: 3%;
+  margin-bottom: 3%;
+}
+
+input[type=submit] {
+  width: 30%;
+  height: 7%;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
