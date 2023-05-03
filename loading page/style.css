@@ -9,13 +9,19 @@ body, html{
 
 }
 header{
-    height: 40%;
+    height: 5vh;
     width: 100%;
     background-color: whitesmoke;
+    position: aboslute;
 }
-
+section{
+    height: 100vw;
+    border: 2px solid;
+}
 footer{
     width: 100%;
+    height: 20vh;
     color: whitesmoke;
     background-color: rgb(22, 18, 48);
+    bottom: 0;
 }
