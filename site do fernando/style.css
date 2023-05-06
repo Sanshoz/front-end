@@ -14,8 +14,7 @@ body {
   text-align: center;
   font-size: 2vw;
   background-color: #161A1E;
-  width: 20%;
-  height: 100%;
+  width: 20%; 
   color: #F8f8ff;
   position: absolute;
   top: 0; bottom: 0;
@@ -26,23 +25,32 @@ body {
 }
 
 button{
+  width: 100%;
+  height: 5.6vh;
   font-size: 1.5vw;
   color: white;
   text-decoration: none;
   border: none;
   background-color: inherit;
-  margin-bottom: 5%;
+}
+img:hover{
+  cursor: pointer;
 }
 button:hover{
   color: inherit;
   background-color:#303134;
   display: inline-block;
   width: 100%;
+  cursor: pointer;
+  box-shadow: inset;
 }
 
 #Formação, #Abordagem, #Contato{
-  display: none;
-}
+  opacity: 0;
+  height: 0;
+  visibility: hidden;
+  }
+
 
  #texts{
   font-size: 1vw;
@@ -68,7 +76,7 @@ button:hover{
 input[type=text]{
   border:  2px solid;
   width: 45%;
-  height: 4%;
+  height: 3vh;
   padding-left: 3%;
   border-radius: 0.5%;
   margin-bottom: 1%;
@@ -85,13 +93,26 @@ textarea{
 
 input[type=submit] {
   width: 30%;
-  height: 7%;
+  height: 7vh;
   background-color: gray;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.5vw;
   cursor: pointer;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/* .showDiv{
+  opacity: 1;
+  transition: opacity 1s ease-out;
+  height: auto;
+}
+
+.hideDiv{ 
+  opacity: 0; 
+  transition: opacity 1s ease-out;
+  height: 0;
+}
+
+*/

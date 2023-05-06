@@ -9,14 +9,16 @@ body, html{
 
 }
 header{
-    height: 5vh;
+    height: 3vh;
     width: 100%;
+    padding-top: 1vh;
     background-color: whitesmoke;
     position: aboslute;
+    text-align: center;
+
 }
 section{
     height: 100vw;
-    border: 2px solid;
 }
 footer{
     width: 100%;
