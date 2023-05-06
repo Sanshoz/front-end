@@ -103,16 +103,50 @@ input[type=submit] {
   margin-left: auto;
   margin-right: auto;
 }
-/* .showDiv{
-  opacity: 1;
-  transition: opacity 1s ease-out;
-  height: auto;
+
+#foto{
+  width: 75%; 
+  border-radius: 50%; 
+  background-color: white; 
+  padding: 0.9%;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
 }
 
-.hideDiv{ 
-  opacity: 0; 
-  transition: opacity 1s ease-out;
-  height: 0;
-}
+@media only screen and (max-device-width: 900px) {
+  #lateral{
+    position: static;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+  }
+  #elementosLateral{
+    position: inherit;
+  }
+  
+  button{
+    font-size: 5vw;
+  }
 
-*/
+  #texts{
+    position: static;
+    height: 100vh;
+    font-size: 5vw;
+    background-color: #F8f8ff;
+    margin-left: auto;
+  }
+  #Formação, #Abordagem, #Contato, #me{
+    opacity: 1;
+    height: auto;
+    visibility: visible;
+    margin-bottom: 60%;
+    }
+    #me{
+      margin-top: 20%;
+    }
+  #Contato input{
+    display: block;
+
+  }
+
+}
