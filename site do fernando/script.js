@@ -7,7 +7,7 @@ document.addEventListener("scroll", function() {
     let buttons = document.getElementsByClassName("button");
     if (screen.width < 640 || screen.height < 480) {
        if(posicaoy > 15){
-            menu.style.position = "fixed";
+            menu.style.position = "sticky";
             menu.style.top = "0"
             menu.style.overflow = "hidden"
             menu.style.height = "16vh";

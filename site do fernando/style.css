@@ -115,13 +115,22 @@ input[type=submit] {
 
 @media only screen and (max-device-width: 900px) {
   #lateral{
-    position: static;
+    position: sticky;
     width: 100vw;
     height: 100vh;
     overflow: auto;
   }
   #elementosLateral{
     position: inherit;
+    bottom: auto;
+    top: auto;
+    left: auto;
+    right: auto;
+  }
+  #foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   button{
